@@ -1,0 +1,311 @@
+body {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 850px;
+  margin: 0px;
+}
+
+.navbar {
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+  flex-direction: column;
+  transition: 1s;
+}
+
+.navtransition {
+  width: 450px;
+  height: 100%;
+}
+
+.topnav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  border-bottom: solid rgba(0, 0, 0, 0.411) 2px;
+}
+
+.userpart {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.topnav p {
+  margin-left: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: large;
+}
+
+.nav-content {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.ncontent {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.user {
+  background-color: #dbe5fe;
+}
+
+.ncontent:hover {
+  background-color: #dbe5fe;
+}
+
+.ncontent p {
+  font-size: larger;
+  letter-spacing: 1px;
+}
+
+.userpart img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #353b49;
+}
+
+.threeline-container {
+  width: 250px;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.threeline {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.threeline div {
+  border: solid white 3px;
+  border-radius: 15px;
+}
+
+.threeline div:nth-child(1) {
+  width: 20%;
+}
+
+.threeline div:nth-child(2) {
+  width: 40%;
+}
+
+.threeline div:nth-child(3) {
+  width: 60%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+.title p {
+  margin: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: larger;
+}
+
+.title p:nth-child(1) {
+  color: white;
+}
+
+.title p:nth-child(2) {
+  color: rgb(124, 124, 124);
+}
+
+.userinfo {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.notif {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-image: url("/iconweb/source/other/white-notification-bell-icon-transparent-background-11638985030nycenfyruw-removebg-preview.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.pesan {
+  cursor: pointer;
+}
+
+.profil {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.profil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.create {
+  width: 800px;
+  height: 450px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.ctop {
+  background-color: #353b49;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.ctop button {
+  margin-right: 10px;
+  height: 30px;
+  background-color: rgb(0, 211, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.ctop h2 {
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.inputpart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+}
+
+.inputbtn {
+  margin-bottom: -40px;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputbtn button {
+  margin: 5px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  cursor: pointer;
+  color: white;
+}
+
+.inputbtn button:nth-child(1) {
+  background-color: green;
+}
+
+.inputbtn button:nth-child(2) {
+  background-color: red;
+}
+
+.inputpart p {
+  font-size: large;
+  letter-spacing: 1px;
+}
+
+.inputpart select {
+  width: 500px;
+  height: 30px;
+}
+.inputpart input {
+  width: 500px;
+  height: 30px;
+}
+
+form {
+  flex-direction: column;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  height: 350px;
+  margin-left: 10px;
+}
+
+.tabeldata {
+  margin-top: 60px;
+  border: solid black 1px;
+  width: 900px;
+  height: 400px;
+  margin-bottom: 50px;
+  overflow-x: auto;
+}
+
+.toptabel {
+  background-color: #353b49;
+  color: white;
+  height: 30px;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.bottom {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.password-col {
+  max-width: 10px; /* Set the fixed width */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: auto; /* Add a horizontal scrollbar when the content overflows */
+}

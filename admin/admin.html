@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADMIN PANEL</title>
+    <link rel="stylesheet" href="/style/admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="topnav">
+        <div class="userpart">
+          <img src="/iconweb/source/other/profil-default.png" alt="" />
+        </div>
+
+        <p>USERNAME</p>
+      </div>
+
+      <div class="nav-content">
+        <div class="ncontent dashboard">
+          <i
+            class="fa-solid fa-gauge"
+            style="margin-right: 20px; margin-left: 30px; font-size: 30px"
+          ></i>
+          <p>DASHBOARD</p>
+        </div>
+
+        <div class="ncontent user" onclick="window.open('user.php');">
+          <i
+            class="fa-solid fa-users"
+            style="margin-right: 20px; margin-left: 30px; font-size: 30px"
+          ></i>
+          <p>USER</p>
+        </div>
+
+        <div class="ncontent pages">
+          <i
+            class="fa-solid fa-window-restore"
+            style="margin-right: 20px; margin-left: 30px; font-size: 30px"
+          ></i>
+          <p>PAGES</p>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="top">
+        <div class="threeline-container">
+          <div class="threeline">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+
+        <div class="title">
+          <p>Dashboard</p>
+          <p>Admin / Dashboard</p>
+        </div>
+
+        <div class="userinfo">
+          <div class="notif"></div>
+          <div class="pesan">
+            <i
+              class="fa-solid fa-message"
+              style="color: #fafcff; font-size: 22px"
+            ></i>
+          </div>
+          <div class="profil">
+            <img src="/iconweb/source/other/profil-default.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="/js/admin.js"></script>
+</html>

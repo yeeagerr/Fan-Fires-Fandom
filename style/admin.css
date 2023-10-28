@@ -1,0 +1,188 @@
+body {
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+.navbar {
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+  flex-direction: column;
+  transition: 1s;
+}
+
+.navtransition {
+  width: 450px;
+  height: 100%;
+}
+
+.topnav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid rgba(0, 0, 0, 0.411) 2px;
+}
+
+.userpart {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.topnav p {
+  margin-left: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: large;
+}
+
+.nav-content {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.ncontent {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.dashboard {
+  background-color: #dbe5fe;
+}
+
+.ncontent:hover {
+  background-color: #dbe5fe;
+}
+
+.ncontent p {
+  font-size: larger;
+  letter-spacing: 1px;
+}
+
+.userpart img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #353b49;
+}
+
+.threeline-container {
+  width: 250px;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.threeline {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.threeline div {
+  border: solid white 3px;
+  border-radius: 15px;
+}
+
+.threeline div:nth-child(1) {
+  width: 20%;
+}
+
+.threeline div:nth-child(2) {
+  width: 40%;
+}
+
+.threeline div:nth-child(3) {
+  width: 60%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+.title p {
+  margin: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: larger;
+}
+
+.title p:nth-child(1) {
+  color: white;
+}
+
+.title p:nth-child(2) {
+  color: rgb(124, 124, 124);
+}
+
+.userinfo {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.notif {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-image: url("/iconweb/source/other/white-notification-bell-icon-transparent-background-11638985030nycenfyruw-removebg-preview.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.pesan {
+  cursor: pointer;
+}
+
+.profil {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.profil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
